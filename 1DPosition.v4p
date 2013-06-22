@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
-   <PATCH nodename="C:\Users\dl-110\Documents\GitHub\All_Patches\4_5_beta29.2_OneDimensionalSlider\1DPosition.v4p" filename="C:\Dokumente und Einstellungen\jochen\Eigene Dateien\Dropbox\P_I\Programmierung\Patches\2_1_06_HT_Eindimensionaler_Positionsgeber__20121121\1D Position.v4p" systemname="1D Position">
+   <PATCH nodename="C:\Users\dl-110\Desktop\4_5_OneDimensionalSlider\1DPosition.v4p" filename="C:\Dokumente und Einstellungen\jochen\Eigene Dateien\Dropbox\P_I\Programmierung\Patches\2_1_06_HT_Eindimensionaler_Positionsgeber__20121121\1D Position.v4p" systemname="1D Position">
    <BOUNDS height="19800" left="0" top="0" type="Window" width="10950">
    </BOUNDS>
    <NODE componentmode="Hidden" id="18" nodename="Map (Value)" systemname="Map (Value)">
@@ -62,7 +62,7 @@
    </NODE>
    <LINK dstnodeid="18" dstpinname="Destination Maximum" srcnodeid="15" srcpinname="Y Output Value">
    </LINK>
-   <NODE componentmode="InABox" id="19" nodename="Renderer (EX9)" systemname="Renderer (EX9)">
+   <NODE componentmode="InAWindow" id="19" nodename="Renderer (EX9)" systemname="Renderer (EX9)">
    <BOUNDS height="100" left="3870" top="12840" type="Node" width="100">
    </BOUNDS>
    <BOUNDS height="1155" left="3870" top="12840" type="Box" width="3870">
@@ -1119,9 +1119,9 @@
    <NODE nodename="IOBox (String)" componentmode="InABox" id="100039" systemname="IOBox (String)">
    <BOUNDS type="Node" left="7035" top="5685" width="2595" height="480">
    </BOUNDS>
-   <BOUNDS type="Box" left="7035" top="5685" width="2415" height="1815">
+   <BOUNDS type="Box" left="7035" top="5685" width="2580" height="1995">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;&lt; Press the left and right arrow key to set the left and right border for the sensor.&cr;&lf;&cr;&lf;Since we are using a Mouse (System Window) node the renderer window has to be seleceted for this patch to work.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;&lt; Press the left and right arrow key to set the left and right border for the sensor.&cr;&lf;&cr;&lf;BE AWARE!!!&cr;&lf;Since we are using a Mouse (System Window) node the renderer window has to be seleceted for the patch and the border setting to work.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
